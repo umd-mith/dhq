@@ -13,18 +13,18 @@ import java.io.File
 import scala.xml._
 
 val overlap = Map(
-  "jerz2007" -> 9,
-  "eve2007" -> 10,
-  "barnet2008" -> 15,
-  "blackwell2009" -> 35,
-  "brown2009" -> 40,
-  "flanders2009" -> 55,
-  "svensson2009" -> 65,
-  "svensson2009a" -> 65,
-  "dunn2009" -> 79,
-  "svensson2010" -> 80,
-  "kashtan2011" -> 101
-).mapValues("dhq-%06d".format(_)).withDefault(identity)
+  "jerz2007"      ->   9,
+  "eve2007"       ->  10,
+  "barnet2008"    ->  15,
+  "blackwell2009" ->  35,
+  "brown2009"     ->  40,
+  "flanders2009"  ->  55,
+  "svensson2009"  ->  65,
+  "svensson2009a" ->  65,
+  "dunn2009"      ->  79,
+  "svensson2010"  ->  80,
+  "kashtan2011"   -> 101
+).mapValues("dhq-%06d".format(_)) withDefault identity
 
 val xmlns = "http://www.w3.org/XML/1998/namespace"
 
@@ -37,8 +37,7 @@ def isValid(url: String) = url match {
   case _ => None
 }
 
-val docs = new File(args(0)).listFiles.sorted.view.map(XML.loadFile)
-val cites = docs.flatMap { doc =>
+new File(args(0)).listFiles.sorted.view.map(XML.loadFile).flatMap { doc =>
   val id = "dhq-" + (doc \\ "idno").filter(
     _.attribute("type").map(_.head.toString).getOrElse("") == "DHQarticle-id"
   ).head.text
@@ -64,7 +63,6 @@ val cites = docs.flatMap { doc =>
   )
 
   val counts = cited ++ uncited.map((_, 0)).toMap
-
   counts.map { case (target, count) => (id, target, count) }
 
 }.map(_.productIterator.mkString(",")).foreach(println)

@@ -1,4 +1,7 @@
-// Usage: scala scripts/CountCitations.scala data/text/ > data/other/links.txt
+// Usage:
+//     scala scripts/CountCitations.scala data/text/ \
+//      1> data/other/links.txt \
+//      2> log/errors.txt
 // The output is a CSV file with each line being of the following format:
 //
 //     sourceId,targetId,count
@@ -25,9 +28,21 @@ val cites = docs.flatMap { doc =>
     _.attribute("target").map(_.head.toString)
   ).filter(_.head == '#').map(_.tail).groupBy(identity).mapValues(_.size)
 
-  val unseens = (ids -- refTargets.keys).map(k => (k, 0)).toMap
+  // Items that are in the bibliography but not cited.
+  val uncited = (ids -- refTargets.keys)
 
-  val counts = refTargets ++ unseens
+  // Items cited but not in the bibliography.
+  val unbibed = (refTargets.keys.toSet -- ids)
+
+  if (uncited.nonEmpty || unbibed.nonEmpty) System.err.println(
+    "--------------- %s\nBibl only: %s\nText only: %s".format(
+      id, uncited.mkString(", "), unbibed.mkString(", ")
+    )
+  )
+
+  val counts = refTargets ++ uncited.map((_, 0)).toMap
+
   counts.map { case (target, count) => (id, target, count) }
+
 }.foreach(i => println(i.productIterator.mkString(",")))
 

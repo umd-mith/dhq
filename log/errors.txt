@@ -1,0 +1,216 @@
+--------------- 000002
+Bibl only: king2003, glassner2004, frasca2003, fable2005, cowart1977, mendelson1978, kucklich2996, davis1998, ulmer2002, bateman2005, eskelinen2004, szulborski2005, elder2006, vogler1998
+Text only: 
+--------------- 000003
+Bibl only: cobb1997, oed2006, about2006a, hunt1997, public2006, becker1932, jessop2004, haskell1984, plewe1997, green2001, mabry, rosenzweig2003
+Text only: 
+--------------- 000004
+Bibl only: dutt1962, hayles2002, anderson2003, bia2003, dreyfus2003
+Text only: figure04, table1, figure01, figure03, figure02
+--------------- 000009
+Bibl only: brucker1976, herz1997, brucker2005b, keller2007, mann2004, adams2001c, woods1998, jerz2000, juul2001
+Text only: example05, figure19, example01, figure25, figure04, figure21, section04, example04, section05, figure22, figure39, section03, figure23, figure40, section02, figure38, example02
+--------------- 000010
+Bibl only: morgan2006, marshall1989, nelsonnd, woods2005, jasper2005, nelson2007, roberts2007c, eve2005, maher2005, roberts2007b, shiovitz2004, brasslantern2007, crowther1976, berg2004, roberts2007a
+Text only: note14
+--------------- 000012
+Bibl only: bnc2001, shillingsburg2006, halliday1981, davies2007
+Text only: 
+--------------- 000015
+Bibl only: bush1928, stiegler1998, bush1963, hayles1993, weaver1950
+Text only: 
+--------------- 000016
+Bibl only: chambers2006, shapiro2001
+Text only: 
+--------------- 000017
+Bibl only: strickland2007, montfort2007, kendall2007, rettberg2007, hayles2003, hayles2007, hayles2007a
+Text only: 
+--------------- 000019
+Bibl only: finch1974, tufte1998, wenger2002
+Text only: note14
+--------------- 000023
+Bibl only: bl2008
+Text only: figure05, figure04, figure01, figure03, figure07, figure02, figure08, figure06
+--------------- 000024
+Bibl only: allen1889a, allen1902, tei2004, allen1907, mahoney2003, allen1900, allen1889, allen1896, allen1890, allen1890a, allen1889b, allen1904, allen1899
+Text only: 
+--------------- 000025
+Bibl only: hornblower1996, adler1928, cancick2002, pfeiffer1999
+Text only: 
+--------------- 000026
+Bibl only: 
+Text only: example01, figure05, figure04, example04, figure01, figure03, example03, figure02, example02
+--------------- 000027
+Bibl only: seattle2005
+Text only: figure04
+--------------- 000028
+Bibl only: dindorf1875, vanthiel
+Text only: glossary
+--------------- 000030
+Bibl only: reynolds2007, clark1999, bos2007, clark1999a, bodard2007, colin2007, bray2006, elliott2007, roueche2004
+Text only: 
+--------------- 000031
+Bibl only: nadeau2008, geoweb2007, rohs2007, ratliff2007, goodchild2007a, hartzler1998, carlson2007
+Text only: figure1, figure2
+--------------- 000032
+Bibl only: 
+Text only: glossary3, glossary6, table4, figure3, glossary2, glossary7, table2, glossary5, figure4, glossary1, figure1, glossary4, table3, figure2
+--------------- 000033
+Bibl only: lsj
+Text only: fig03, fig02, fig01, fig07, fig04
+--------------- 000034
+Bibl only: 
+Text only: figure9, figure14, figure5, figure10, figure21, figure18, figure3, figure15, figure22, figure11, figure4, figure12, figure1, figure16, figure20, figure13, figure2
+--------------- 000035
+Bibl only: atkins2003, shirky2008
+Text only: 
+--------------- 000038
+Bibl only: 
+Text only: figure05, figure04, figure10, figure09, figure01, figure11, figure03, figure07, figure02, figure08, figure12, figure06
+--------------- 000039
+Bibl only: 
+Text only: figure05, figure04, figure09, figure11, appendix, figure03, figure12, figure13
+--------------- 000040
+Bibl only: nora, mandell, wwp, warwick2006, tenopir2003, wiberley2000, harley2006, eaves, brown2006a, wiberley1991, levine-clark2007, dnb2004, hayles2003, crane
+Text only: figure01, figure02
+--------------- 000042
+Bibl only: stein, treetagger, svmlight
+Text only: table06, table05
+--------------- 000043
+Bibl only: svm_light, weka3, parallel_gpdt
+Text only: appendix6, appendix7, appendix1, appendix2, appendix3
+--------------- 000045
+Bibl only: birkerts1994, gates1987
+Text only: 
+--------------- 000046
+Bibl only: coover1992, profession2007, hayles2006, bootz2006, eskelinen2004, coover1999, aarseth1997
+Text only: 
+--------------- 000049
+Bibl only: thaler2008a
+Text only: 
+--------------- 000050
+Bibl only: unsworth2006, zorich2008, udl
+Text only: 
+--------------- 000052
+Bibl only: erdman1988, preston2005, bielstein2006, howard2006, eaves2006, mihm2006, waal, william
+Text only: 
+--------------- 000053
+Bibl only: yakel2003, beckett1970, beckett1969, macneil2005, light2002
+Text only: 
+--------------- 000055
+Bibl only: flanders1999, liu2004, shillingsburg1993
+Text only: 
+--------------- 000063
+Bibl only: shakespeare2005, davidson2008, weiner2007
+Text only: figure05, figure04, figure01, figure03, figure07, figure02, figure06
+--------------- 000064
+Bibl only: 
+Text only: example1, figure1
+--------------- 000065
+Bibl only: schreibman2004, mcgann2004
+Text only: 
+--------------- 000066
+Bibl only: duguid1996, lara, mcluhan1994
+Text only: 
+--------------- 000067
+Bibl only: unsworth2005, ramsay, horton, kirschenbaum
+Text only: figure05, figure04, figure09, figure03, figure07, figure02, figure08, figure06
+--------------- 000068
+Bibl only: baader2003b, zw2007a
+Text only: table1, figure01, figure03, table2, figure02
+--------------- 000069
+Bibl only: ohara1996, goodman1976
+Text only: figure01, figure03, figure02
+--------------- 000070
+Bibl only: winkler2001, reid2006, sauleau2005, davies2005, garrett2006, fleury1956, gutmann1977, fure2000, newcombe1988, nitsch2006, winchester1970, dunn1946, blaikie2005, ahds2005, burnett1980, garrett2003, ahds2004, katz1972
+Text only: section_3.2, section_3.3, section_4
+--------------- 000071
+Bibl only: ainsworth
+Text only: 
+--------------- 000072
+Bibl only: oasis2007, w3c2005
+Text only: 
+--------------- 000075
+Bibl only: alexander2003, siemens, pressley1995, twomey2007, kopak2006, tapor, windschuttle1997
+Text only: 
+--------------- 000076
+Bibl only: derrida1995
+Text only: 
+--------------- 000077
+Bibl only: jsah2009, edwards2007, opencit2009
+Text only: 
+--------------- 000078
+Bibl only: goble2006
+Text only: 
+--------------- 000080
+Bibl only: knorr1999, french2009a, brown2009, simanowski2009
+Text only: 
+--------------- 000081
+Bibl only: barnet2005, nyce1991, barnet2007
+Text only: 
+--------------- 000082
+Bibl only: 
+Text only: figure01, figure02
+--------------- 000083
+Bibl only: acls2006, mla2006, kenny1991, unsworth2007
+Text only: 
+--------------- 000086
+Bibl only: urban1972, hoffman1986, jensen1971, urban1975
+Text only: 
+--------------- 000088
+Bibl only: 
+Text only: figure10
+--------------- 000089
+Bibl only: powers2000
+Text only: figure05, figure04, figure01, table01, figure03, figure02, table02
+--------------- 000090
+Bibl only: humlabblog2006
+Text only: figure03
+--------------- 000092
+Bibl only: barth1980, burrows1999, clark1982, hicks1935, krupnick1979, howells2001, pizer1982, halper1934, burger1984, halper1937, rollins1934, gaghan2005, scott2006, federalwritersproject1982, luddington1980, halper1970, carver1975, cowley1969, mumford1938, hanley2004, lang1927, cowan1982, hardt2004, latour2005, norris1986, weber1978
+Text only: 
+--------------- 000093
+Bibl only: sproull1991, rideout1962, cayton2007, galloway2004, ciancio1972, benjamin2004, mencken1919, haraway2004, chambers2006, masters1915, hemingway1926, howard2008, bassett2006, spiller1972, enniss1990, barthes1974, spencer1969, toomer1923, frost1942, faulkner1938, bakhtin1984, kazin1982
+Text only: 
+--------------- 000094
+Bibl only: bourne1916
+Text only: 
+--------------- 000096
+Bibl only: whittier1999, vandusen1996
+Text only: 
+--------------- 000098
+Bibl only: eve2007, kashtan2011, montfort2005
+Text only: 
+--------------- 000099
+Bibl only: eloai2010, miller1998, bigelow2008
+Text only: 
+--------------- 000100
+Bibl only: detienne1978, virilio2003, arendt1978, abrams1971
+Text only: 
+--------------- 000101
+Bibl only: short2003, baggett1994, short2000, short2002
+Text only: figure05, figure04
+--------------- 000102
+Bibl only: gutierrez, ifbook
+Text only: 
+--------------- 000103
+Bibl only: bherer2009, schafer2010, klima2006, boluk2011, rueb2005, rueb1996, rothbauer2009
+Text only: 
+--------------- 000104
+Bibl only: beckett1995, bosker2010a
+Text only: 
+--------------- 000105
+Bibl only: gochenour2006, barthes1972
+Text only: 
+--------------- 000106
+Bibl only: bergmann2011, surname2009, mcgann1997
+Text only: bergmann2010
+--------------- 000108
+Bibl only: kittler1999, noland1999, ulmer2003, saper2010, brown1951, brown1932, stein1955, mcgann2000, shaviro2003, saper2009, ford1980, boyle1968, watten2003, dworkin1999, kittler1990, perloff1991, drucker1996, ford1987, brown1952, north2002, petrucci1999, kostelanetz1991, brown2009, butler2004, mcgann1993, dworkin2003, ulmer1987, north2005, paulson1988, johns1937, rasula1998
+Text only: 
+--------------- 000109
+Bibl only: hayles2002, krauss1999, haraway1991, klein2004, bal1999, bal2000, purgar2006, lambert2004, hayles1999, murray2008, deleuze1993, calabrese1992, eliot1921, ndalianis2004
+Text only: 
+--------------- 000110
+Bibl only: castells2007, manovich2001, kittler2009, deblock2010, boyd2008, dejong2006, bennett2008b, zizek2006, boyd2007, bolin2009, rainie2010, urry2007
+Text only: 

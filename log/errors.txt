@@ -51,7 +51,7 @@ Bibl only: nadeau2008, geoweb2007, rohs2007, ratliff2007, goodchild2007a, hartzl
 Text only: 
 --------------- dhq-000033
 Bibl only: lsj
-Text only: fig03, fig02, fig01, fig07, fig04
+Text only: 
 --------------- dhq-000035
 Bibl only: atkins2003, shirky2008
 Text only: 
@@ -108,7 +108,7 @@ Bibl only: ohara1996, goodman1976
 Text only: 
 --------------- dhq-000070
 Bibl only: winkler2001, reid2006, sauleau2005, davies2005, garrett2006, fleury1956, gutmann1977, fure2000, newcombe1988, nitsch2006, winchester1970, dunn1946, blaikie2005, ahds2005, burnett1980, garrett2003, ahds2004, katz1972
-Text only: section_3.2, section_3.3, section_4
+Text only: 
 --------------- dhq-000071
 Bibl only: ainsworth
 Text only: 

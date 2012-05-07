@@ -752,7 +752,6 @@ dhq-000033,charniak2000,1
 dhq-000033,brants2006,1
 dhq-000033,lesk1986,1
 dhq-000033,mcdonald2005,1
-dhq-000033,fig03,2
 dhq-000033,mihalcea2004,1
 dhq-000033,niermeyer1976,1
 dhq-000033,bamman2008,2
@@ -760,7 +759,6 @@ dhq-000033,melcuk1988,1
 dhq-000033,pinkster1990,1
 dhq-000033,pdt,1
 dhq-000033,old,1
-dhq-000033,fig02,1
 dhq-000033,thomisticus,1
 dhq-000033,nivre2006,1
 dhq-000033,gale1992,2
@@ -768,10 +766,8 @@ dhq-000033,mccarthy2004,1
 dhq-000033,brown1991,2
 dhq-000033,lsj,0
 dhq-000033,grozea2004,1
-dhq-000033,fig01,3
 dhq-000033,lewisshort,1
 dhq-000033,miller1993,1
-dhq-000033,fig07,1
 dhq-000033,busa2004,1
 dhq-000033,schutz1895,1
 dhq-000033,sinclair1987,1
@@ -780,7 +776,6 @@ dhq-000033,wordnet,1
 dhq-000033,moore2002,1
 dhq-000033,tufis2004,1
 dhq-000033,andrews1850,1
-dhq-000033,fig04,1
 dhq-000033,singh2005,1
 dhq-000033,bourne1916,1
 dhq-000033,kilgarriff2004,1
@@ -1321,7 +1316,6 @@ dhq-000069,woolfson2005,1
 dhq-000069,kirschenbaum2008,2
 dhq-000069,ohara1993,2
 dhq-000070,nicholas2006,1
-dhq-000070,section_3.2,1
 dhq-000070,huntington2007,1
 dhq-000070,adams1995,1
 dhq-000070,campop2006,1
@@ -1376,7 +1370,6 @@ dhq-000070,higgs2005,1
 dhq-000070,schurer2002,6
 dhq-000070,burnett1980,0
 dhq-000070,garrett2003,0
-dhq-000070,section_3.3,3
 dhq-000070,riedel2007,1
 dhq-000070,stallings2005,1
 dhq-000070,tillot1972,1
@@ -1384,7 +1377,6 @@ dhq-000070,brodlie2004,1
 dhq-000070,holmes2006,1
 dhq-000070,ahds2006,1
 dhq-000070,ahds2004,0
-dhq-000070,section_4,2
 dhq-000070,davies2006,1
 dhq-000070,katz1972,0
 dhq-000071,kiernan1997,1

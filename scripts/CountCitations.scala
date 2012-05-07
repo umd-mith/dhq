@@ -28,7 +28,7 @@ val overlap = Map(
 
 val xmlns = "http://www.w3.org/XML/1998/namespace"
 
-val BadCitation = "^#(example|figure|glossary|note|section|table)\\d.*".r
+val BadCitation = "^#(example|fig(?:ure)?|glossary|note|section|table)_?\\d.*".r
 val GoodCitation = "^#(.*)$".r
 
 def isValid(url: String) = url match {

@@ -53,12 +53,6 @@ new File(args(0)).listFiles.sorted.view.map(XML.loadFile).flatMap { doc =>
   // Items cited but not in the bibliography.
   val unbibed = (cited.keys.toSet -- bibed)
 
-  /*if (uncited.nonEmpty || unbibed.nonEmpty) System.err.println(
-    "--------------- %s\nBibl only: %s\nText only: %s".format(
-      id, uncited.mkString(", "), unbibed.mkString(", ")
-    )
-  )*/
-
   if (unbibed.nonEmpty) System.err.println(
     "--------------- %s\nText only: %s".format(
       id, unbibed.mkString(", ")

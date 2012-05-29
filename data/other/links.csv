@@ -586,10 +586,9 @@ dhq-000027,archimedes,1
 dhq-000027,reddy2006,1
 dhq-000027,googlebooks,1
 dhq-000027,archimedestemplates,1
-dhq-000028,glossary,1
-dhq-000028,dindorf1875,0
 dhq-000028,nagy2004,1
 dhq-000028,dickey2007,1
+dhq-000028,dindorf1875,0
 dhq-000028,vanthiel,0
 dhq-000029,reynolds1991,1
 dhq-000029,aland2005,1
@@ -887,7 +886,6 @@ dhq-000038,kretzschmar1997,1
 dhq-000038,kretzschmar2002b,1
 dhq-000038,kirk1992,1
 dhq-000038,kretzschmar2005a,1
-dhq-000039,appendix,1
 dhq-000039,pgwde2007,1
 dhq-000039,pierazzo2007,1
 dhq-000039,flanders2007,1
@@ -939,12 +937,7 @@ dhq-000043,svm_light,0
 dhq-000043,zanni2006,1
 dhq-000043,philologic2007,1
 dhq-000043,ruiz1998,1
-dhq-000043,appendix6,1
-dhq-000043,appendix7,1
 dhq-000043,zanghirati2003,1
-dhq-000043,appendix1,1
-dhq-000043,appendix2,1
-dhq-000043,appendix3,1
 dhq-000043,philomine2007,1
 dhq-000043,weka3,0
 dhq-000043,parallel_gpdt,0
@@ -2295,7 +2288,6 @@ dhq-000105,wolfe2000,1
 dhq-000106,moretti2000,1
 dhq-000106,waltzer2010,2
 dhq-000106,dhq-000055,2
-dhq-000106,bergmann2011,0
 dhq-000106,kirschenbaum2010b,1
 dhq-000106,ramsay2010,1
 dhq-000106,mcgann2009,1

@@ -13,22 +13,13 @@ import java.io.File
 import scala.xml._
 
 val overlap = Map(
-  "jerz2007"      ->   9,
-  "eve2007"       ->  10,
-  "barnet2008"    ->  15,
-  "blackwell2009" ->  35,
-  "brown2009"     ->  40,
-  "flanders2009"  ->  55,
-  "svensson2009"  ->  65,
-  "svensson2009a" ->  65,
-  "dunn2009"      ->  79,
-  "svensson2010"  ->  80,
-  "kashtan2011"   -> 101
+  "jerz2007"      ->   9, "eve2007"       ->  10, "barnet2008"    ->  15,
+  "blackwell2009" ->  35, "brown2009"     ->  40, "flanders2009"  ->  55,
+  "svensson2009"  ->  65, "svensson2009a" ->  65, "dunn2009"      ->  79,
+  "svensson2010"  ->  80, "kashtan2011"   -> 101
 ).mapValues("dhq-%06d".format(_)) withDefault identity
 
-val xmlns = "http://www.w3.org/XML/1998/namespace"
-
-val BadCitation = "^#(example|fig(?:ure)?|glossary|note|section|table)_?\\d.*".r
+val BadCitation = "^#(example|fig(?:ure)?|glossary|appendix|note|section|table)_?[\\d\\.]*".r
 val GoodCitation = "^#(.*)$".r
 
 def isValid(url: String) = url match {
@@ -37,18 +28,24 @@ def isValid(url: String) = url match {
   case _ => None
 }
 
+class RichNode(e: Node) {
+  private val xmlns = "http://www.w3.org/XML/1998/namespace"
+  def xmlId = e.attribute(xmlns, "id").map(_.text)
+  def hasAttr(k: String, v: String) =
+    e.attribute(k).flatMap(_.headOption).map(_.text == v).getOrElse(false)
+}
+
+implicit def enrichNode(e: Node) = new RichNode(e)
+
 new File(args(0)).listFiles.sorted.view.map(XML.loadFile).flatMap { doc =>
-  val id = "dhq-" + (doc \\ "idno").filter(
-    _.attribute("type").map(_.head.toString).getOrElse("") == "DHQarticle-id"
-  ).head.text
+  val id = "dhq-" +
+    (doc \\ "idno").find(_.hasAttr("type", "DHQarticle-id")).get.text
 
-  val bibed = (doc \\ "bibl").flatMap(
-    _.attribute(xmlns, "id").map(id => overlap(id.head.toString))
-  ).toSet
+  val bibed = (doc \\ "bibl").flatMap(_.xmlId.map(overlap)).toSet
 
-  val cited = (doc \\ "ptr" ++ doc \\ "ref").flatMap(
-    _.attribute("target").map(_.head.toString)
-  ).flatMap(isValid).map(overlap).groupBy(identity).mapValues(_.size)
+  val cited = (doc \\ "ptr" \\ "@target" ++ doc \\ "ref" \\ "@target").flatMap(
+    v => isValid(v.text)
+  ).map(overlap).groupBy(identity).mapValues(_.size)
 
   // Items that are in the bibliography but not cited.
   val uncited = (bibed -- cited.keys)
@@ -56,9 +53,15 @@ new File(args(0)).listFiles.sorted.view.map(XML.loadFile).flatMap { doc =>
   // Items cited but not in the bibliography.
   val unbibed = (cited.keys.toSet -- bibed)
 
-  if (uncited.nonEmpty || unbibed.nonEmpty) System.err.println(
+  /*if (uncited.nonEmpty || unbibed.nonEmpty) System.err.println(
     "--------------- %s\nBibl only: %s\nText only: %s".format(
       id, uncited.mkString(", "), unbibed.mkString(", ")
+    )
+  )*/
+
+  if (unbibed.nonEmpty) System.err.println(
+    "--------------- %s\nText only: %s".format(
+      id, unbibed.mkString(", ")
     )
   )
 
